@@ -13,7 +13,13 @@ files = [
 	'./static/data/zurich2/17-09-2022-01-26-10.json',
 	'./static/data/zurich2/17-09-2022-01-26-15.json',
 	'./static/data/zurich2/17-09-2022-01-26-20.json',
-	'./static/data/zurich2/17-09-2022-01-26-25.json'
+	'./static/data/zurich2/17-09-2022-01-26-25.json',
+	'./static/data/zurich2/17-09-2022-01-26-30.json',
+	'./static/data/zurich2/17-09-2022-01-26-35.json',
+	'./static/data/zurich2/17-09-2022-01-26-40.json',
+	'./static/data/zurich2/17-09-2022-01-26-45.json',
+	'./static/data/zurich2/17-09-2022-01-26-50.json',
+	'./static/data/zurich2/17-09-2022-01-26-55.json'
 	]
 
 @app.route('/buildings')
@@ -28,7 +34,7 @@ def getBuildingData(building):
 	with open(files[fileNum]) as file: # opening the json file
 		file_data = json.load(file)
 
-	fileNum = (fileNum + 1) % 4
+	fileNum = (fileNum + 1) % 11
 	return file_data
 
 @app.route('/<building>/day')

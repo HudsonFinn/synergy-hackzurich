@@ -11,17 +11,17 @@ roomsPerFloor = [14, 9, 22, 13, 15, 14, 7]
 airMin = 400
 airMax = 2000
 airInitVar = 300
-airVar = 50
+airVar = 200
 
 tempMin = 0
 tempMax = 50
 tempInitVar = 5
-tempVar = 1
+tempVar = 4
 
 lightMin = 1
 lightMax = 1000
 lightInitVar = 300
-lightVar = 30
+lightVar = 200
 
 #Json Builder
 floors = []
@@ -141,6 +141,10 @@ floor6 = [2, 1, 3, 7, 4, 5, 6]
 floorScenarios = [floor0, floor1, floor2, floor3, floor4, floor5, floor6]
 
 def generateFire(oldData, floor, scenarios):
+    floorsOnFire = []
+    floorsOnFire.append(floor)
+
+
     print(scenarios[floor])
 
 initialData = generateInitialData(temperature, airQuality, brightness) 
@@ -151,15 +155,15 @@ json_object = json.dumps(initialData, indent=4)
  
 print(initialData['floors'][0]['rooms'][0]['sensors'])
 
-generateFire(initialData, 3, floorScenarios)
+# generateFire(initialData, 3, floorScenarios)
 # Writing to sample.json
-# with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
-#     outfile.write(json_object)
+with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
+    outfile.write(json_object)
 
-# for i in range(5):
-#     initialData = updateData(initialData)
-#     print(initialData['floors'][0]['rooms'][0]['sensors'])
-#     json_object = json.dumps(initialData, indent=4) 
-#     with open(f"static/data/zurich2/17-09-2022-01-26-{((i+1) * 5):02}.json", "w") as outfile:
-#         outfile.write(json_object)
+for i in range(10):
+    initialData = updateData(initialData)
+    print(initialData['floors'][0]['rooms'][0]['sensors'])
+    json_object = json.dumps(initialData, indent=4) 
+    with open(f"static/data/zurich2/17-09-2022-01-26-{((i+1) * 5):02}.json", "w") as outfile:
+        outfile.write(json_object)
 
