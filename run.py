@@ -11,7 +11,9 @@ files = [
 	'./static/data/zurich2/17-09-2022-01-26-00.json',
 	'./static/data/zurich2/17-09-2022-01-26-05.json',
 	'./static/data/zurich2/17-09-2022-01-26-10.json',
-	'./static/data/zurich2/17-09-2022-01-26-15.json'
+	'./static/data/zurich2/17-09-2022-01-26-15.json',
+	'./static/data/zurich2/17-09-2022-01-26-20.json',
+	'./static/data/zurich2/17-09-2022-01-26-25.json'
 	]
 
 @app.route('/buildings')
