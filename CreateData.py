@@ -100,8 +100,6 @@ def updateData(oldData):
             tempTemperature = getTempVal(tempTemperature, tempVar)
             tempAirQuality = getAirVal(tempAirQuality, airVar)
             tempBrightness = getLightVal(tempBrightness, lightVar)
-            tempFireDetected = 0
-            tempPresence = 0
 
             tempSensors = {
                 "temperature": tempTemperature,
@@ -140,10 +138,65 @@ floor5 = [6, 7, 5, 11, 13, 9, 1, 10,
 floor6 = [2, 1, 3, 7, 4, 5, 6]
 floorScenarios = [floor0, floor1, floor2, floor3, floor4, floor5, floor6]
 
-def generateFire(oldData, floor, scenarios):
-    floorsOnFire = []
-    floorsOnFire.append(floor)
+def startBurning(probability):
+    if random.randint(0, probability) == 0:
+        return True
+    return False
 
+def drawFire(baseData, currentFire, order):
+    for (i, id) in enumerate(floorIds):
+        if (currentFire[i]) == -1:
+            continue
+        print("Floor " + str(i))
+        print(len(baseData['floors'][int(i)]['rooms']))
+        print("Current room" + str(currentFire[i]))
+        print(order[i])
+        print(order[i][currentFire[i]])
+        baseData['floors'][int(i)]['rooms'][(order[i][currentFire[i]]) - 1]['sensors']['fireDetected'] = 1
+        
+    return baseData 
+
+def generateFire(oldData, floor, scenarios):
+    buildingBurnt = False
+
+    currentRoomOnFire = []
+    for i in range(len(scenarios)):
+        if i == floor:
+            currentRoomOnFire.append(0)
+        else:
+            currentRoomOnFire.append(-1)
+
+    count = 0
+    while (buildingBurnt is False):
+        buildingBurnt = True
+        for (i, currentFloor) in enumerate(currentRoomOnFire):
+            if currentFloor != (len(scenarios[i]) - 1):
+                buildingBurnt = False
+
+        for (i, currentFloor) in enumerate(currentRoomOnFire):
+            if currentFloor != -1 and currentFloor < (len(scenarios[i])-1):
+                if startBurning(5):
+                    currentRoomOnFire[i] += 1
+
+        print(currentRoomOnFire)
+    
+        oldData = drawFire(oldData, currentRoomOnFire, scenarios)
+        json_object = json.dumps(initialData, indent=4) 
+        with open(f"static/data/zurich2/17-09-2022-01-26-{count:003}.json", "w") as outfile:
+             outfile.write(json_object)
+        count += 1
+        
+        for (i, currentFloor) in enumerate(currentRoomOnFire):
+            if currentFloor != -1:
+                continue
+            if i > 0:
+                if (currentRoomOnFire[i-1] != -1 and startBurning(5)):
+                    currentRoomOnFire[i] = 0
+                    break
+            if i < (len(currentRoomOnFire) - 1):
+                if (currentRoomOnFire[i+1] != -1 and startBurning(5)):
+                    currentRoomOnFire[i] = 0
+                    break
 
     print(scenarios[floor])
 
@@ -155,15 +208,15 @@ json_object = json.dumps(initialData, indent=4)
  
 print(initialData['floors'][0]['rooms'][0]['sensors'])
 
-# generateFire(initialData, 3, floorScenarios)
+generateFire(initialData, 3, floorScenarios)
 # Writing to sample.json
-with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
-    outfile.write(json_object)
+# with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
+#     outfile.write(json_object)
 
-for i in range(10):
-    initialData = updateData(initialData)
-    print(initialData['floors'][0]['rooms'][0]['sensors'])
-    json_object = json.dumps(initialData, indent=4) 
-    with open(f"static/data/zurich2/17-09-2022-01-26-{((i+1) * 5):02}.json", "w") as outfile:
-        outfile.write(json_object)
+# for i in range(10):
+#     initialData = updateData(initialData)
+#     print(initialData['floors'][0]['rooms'][0]['sensors'])
+#     json_object = json.dumps(initialData, indent=4) 
+#     with open(f"static/data/zurich2/17-09-2022-01-26-{((i+1) * 5):02}.json", "w") as outfile:
+#         outfile.write(json_object)
 

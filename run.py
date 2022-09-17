@@ -7,20 +7,18 @@ app = Flask(__name__)
 file_data = {}
 fileNum = 0
 
-files = [
-	'./static/data/zurich2/17-09-2022-01-26-00.json',
-	'./static/data/zurich2/17-09-2022-01-26-05.json',
-	'./static/data/zurich2/17-09-2022-01-26-10.json',
-	'./static/data/zurich2/17-09-2022-01-26-15.json',
-	'./static/data/zurich2/17-09-2022-01-26-20.json',
-	'./static/data/zurich2/17-09-2022-01-26-25.json',
-	'./static/data/zurich2/17-09-2022-01-26-30.json',
-	'./static/data/zurich2/17-09-2022-01-26-35.json',
-	'./static/data/zurich2/17-09-2022-01-26-40.json',
-	'./static/data/zurich2/17-09-2022-01-26-45.json',
-	'./static/data/zurich2/17-09-2022-01-26-50.json',
-	'./static/data/zurich2/17-09-2022-01-26-55.json'
-	]
+dirPath = "./static/data/zurich2"
+
+files = []
+
+for path in os.listdir(dirPath):
+    # check if current path is a file
+    fullPath = os.path.join(dirPath, path)
+    files.append(fullPath)
+
+files.sort()
+
+print(files)
 
 @app.route('/buildings')
 def hello():
@@ -31,10 +29,10 @@ def hello():
 def getBuildingData(building):
 	global fileNum
 	print(fileNum)
+	print(files[fileNum])
 	with open(files[fileNum]) as file: # opening the json file
 		file_data = json.load(file)
-
-	fileNum = (fileNum + 1) % 11
+	fileNum = (fileNum + 1) % (len(files))
 	return file_data
 
 @app.route('/<building>/day')
