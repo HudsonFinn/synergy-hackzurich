@@ -208,15 +208,15 @@ json_object = json.dumps(initialData, indent=4)
  
 print(initialData['floors'][0]['rooms'][0]['sensors'])
 
-generateFire(initialData, 3, floorScenarios)
+# generateFire(initialData, 3, floorScenarios)
 # Writing to sample.json
 # with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
 #     outfile.write(json_object)
 
-# for i in range(10):
-#     initialData = updateData(initialData)
-#     print(initialData['floors'][0]['rooms'][0]['sensors'])
-#     json_object = json.dumps(initialData, indent=4) 
-#     with open(f"static/data/zurich2/17-09-2022-01-26-{((i+1) * 5):02}.json", "w") as outfile:
-#         outfile.write(json_object)
+for i in range(250):
+    initialData = updateData(initialData)
+    print(initialData['floors'][0]['rooms'][0]['sensors'])
+    json_object = json.dumps(initialData, indent=4) 
+    with open(f"static/data/zurich2/17-09-2022-01-26-{i:003}.json", "w") as outfile:
+        outfile.write(json_object)
 
