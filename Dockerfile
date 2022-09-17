@@ -5,5 +5,6 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY run.py server.py ./
+ADD static ./static
 
 CMD gunicorn --bind 0.0.0.0:$PORT server:app
