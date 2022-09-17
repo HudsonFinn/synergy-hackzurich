@@ -5,11 +5,14 @@ from flask import Flask
 app = Flask(__name__)
 
 file_data = {}
+fileNum = 0
 
-def appSetup(app):
-	global file_data
-	with open('./static/data/zurich2/17-09-2022-01-26-00.json') as file: # opening the json file
-		file_data = json.load(file)
+files = [
+	'./static/data/zurich2/17-09-2022-01-26-00.json',
+	'./static/data/zurich2/17-09-2022-01-26-05.json',
+	'./static/data/zurich2/17-09-2022-01-26-10.json',
+	'./static/data/zurich2/17-09-2022-01-26-15.json'
+	]
 
 @app.route('/buildings')
 def hello():
@@ -18,14 +21,18 @@ def hello():
 
 @app.route('/<building>/now')
 def getBuildingData(building):
+	global fileNum
+	print(fileNum)
+	with open(files[fileNum]) as file: # opening the json file
+		file_data = json.load(file)
+
+	fileNum = (fileNum + 1) % 4
 	return file_data
 
 @app.route('/<building>/day')
 def getBuildingDayData(building):
 	return f'This is data for the last 24 hours of {building}'
 
-# Keep this at the bottom of run.py
-appSetup(app)
 
 if __name__ == "__main__":
     if os.environ.get('IS_CONTAINER') != 'true':

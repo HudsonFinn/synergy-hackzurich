@@ -20,6 +20,12 @@ lightMax = 1000
 #Json Builder
 floors = []
 
+temperature = 25
+airQuality = 1800
+brightness = 750
+fireDetected = 0
+presence = 0
+
 for (i, id) in enumerate(floorIds):
     rooms = []
     for j in range(roomsPerFloor[i]):
