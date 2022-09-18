@@ -5,141 +5,141 @@
                 {
                     "id": "001",
                     "sensors": {
-                        "temperature": 29,
-                        "airQuality": 400,
+                        "temperature": 25,
+                        "airQuality": 1685,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 459
+                        "fireDetected": 1,
+                        "brightness": 635
                     }
                 },
                 {
                     "id": "002",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 1020,
+                        "temperature": 25,
+                        "airQuality": 1919,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 238
+                        "fireDetected": 1,
+                        "brightness": 777
                     }
                 },
                 {
                     "id": "003",
                     "sensors": {
-                        "temperature": 21,
-                        "airQuality": 1307,
+                        "temperature": 30,
+                        "airQuality": 1858,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 673
+                        "fireDetected": 1,
+                        "brightness": 515
                     }
                 },
                 {
                     "id": "004",
                     "sensors": {
-                        "temperature": 42,
-                        "airQuality": 1299,
+                        "temperature": 29,
+                        "airQuality": 1877,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 611
+                        "fireDetected": 1,
+                        "brightness": 924
                     }
                 },
                 {
                     "id": "005",
                     "sensors": {
-                        "temperature": 45,
-                        "airQuality": 640,
+                        "temperature": 27,
+                        "airQuality": 1690,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 597
+                        "fireDetected": 1,
+                        "brightness": 888
                     }
                 },
                 {
                     "id": "006",
                     "sensors": {
-                        "temperature": 34,
-                        "airQuality": 1680,
+                        "temperature": 26,
+                        "airQuality": 1834,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 261
+                        "fireDetected": 1,
+                        "brightness": 660
                     }
                 },
                 {
                     "id": "007",
                     "sensors": {
-                        "temperature": 44,
-                        "airQuality": 472,
+                        "temperature": 23,
+                        "airQuality": 1607,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 963
+                        "fireDetected": 1,
+                        "brightness": 463
                     }
                 },
                 {
                     "id": "008",
                     "sensors": {
-                        "temperature": 31,
-                        "airQuality": 1552,
+                        "temperature": 25,
+                        "airQuality": 1623,
                         "presence": 0,
-                        "fireDetected": 0,
+                        "fireDetected": 1,
                         "brightness": 1000
                     }
                 },
                 {
                     "id": "009",
                     "sensors": {
-                        "temperature": 9,
-                        "airQuality": 956,
+                        "temperature": 22,
+                        "airQuality": 1963,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 821
+                        "fireDetected": 1,
+                        "brightness": 691
                     }
                 },
                 {
                     "id": "010",
                     "sensors": {
-                        "temperature": 9,
-                        "airQuality": 777,
+                        "temperature": 28,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 130
+                        "fireDetected": 1,
+                        "brightness": 781
                     }
                 },
                 {
                     "id": "011",
                     "sensors": {
-                        "temperature": 47,
-                        "airQuality": 1248,
+                        "temperature": 26,
+                        "airQuality": 1598,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 968
+                        "fireDetected": 1,
+                        "brightness": 941
                     }
                 },
                 {
                     "id": "012",
                     "sensors": {
-                        "temperature": 46,
-                        "airQuality": 1395,
+                        "temperature": 27,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 301
+                        "fireDetected": 1,
+                        "brightness": 908
                     }
                 },
                 {
                     "id": "013",
                     "sensors": {
-                        "temperature": 3,
-                        "airQuality": 1505,
+                        "temperature": 25,
+                        "airQuality": 1716,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 123
+                        "fireDetected": 1,
+                        "brightness": 778
                     }
                 },
                 {
                     "id": "014",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 1566,
+                        "temperature": 26,
+                        "airQuality": 1875,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1
+                        "fireDetected": 1,
+                        "brightness": 521
                     }
                 }
             ]
@@ -149,91 +149,91 @@
                 {
                     "id": "101",
                     "sensors": {
-                        "temperature": 32,
-                        "airQuality": 1784,
+                        "temperature": 25,
+                        "airQuality": 1879,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 588
+                        "fireDetected": 1,
+                        "brightness": 980
                     }
                 },
                 {
                     "id": "102",
                     "sensors": {
-                        "temperature": 38,
-                        "airQuality": 1631,
+                        "temperature": 25,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 837
+                        "fireDetected": 1,
+                        "brightness": 587
                     }
                 },
                 {
                     "id": "103",
                     "sensors": {
-                        "temperature": 24,
-                        "airQuality": 728,
+                        "temperature": 22,
+                        "airQuality": 1551,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 248
+                        "fireDetected": 1,
+                        "brightness": 666
                     }
                 },
                 {
                     "id": "104",
                     "sensors": {
-                        "temperature": 13,
-                        "airQuality": 459,
+                        "temperature": 27,
+                        "airQuality": 1668,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 625
+                        "fireDetected": 1,
+                        "brightness": 519
                     }
                 },
                 {
                     "id": "105",
                     "sensors": {
-                        "temperature": 24,
-                        "airQuality": 1433,
+                        "temperature": 28,
+                        "airQuality": 1975,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 182
+                        "fireDetected": 1,
+                        "brightness": 955
                     }
                 },
                 {
                     "id": "106",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 1469,
+                        "temperature": 24,
+                        "airQuality": 1904,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 158
+                        "fireDetected": 1,
+                        "brightness": 968
                     }
                 },
                 {
                     "id": "107",
                     "sensors": {
-                        "temperature": 37,
-                        "airQuality": 1117,
+                        "temperature": 20,
+                        "airQuality": 1684,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 377
+                        "fireDetected": 1,
+                        "brightness": 766
                     }
                 },
                 {
                     "id": "108",
                     "sensors": {
-                        "temperature": 18,
-                        "airQuality": 1430,
+                        "temperature": 25,
+                        "airQuality": 1632,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 615
+                        "fireDetected": 1,
+                        "brightness": 686
                     }
                 },
                 {
                     "id": "109",
                     "sensors": {
-                        "temperature": 43,
-                        "airQuality": 1150,
+                        "temperature": 20,
+                        "airQuality": 1572,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 787
+                        "fireDetected": 1,
+                        "brightness": 796
                     }
                 }
             ]
@@ -243,221 +243,221 @@
                 {
                     "id": "201",
                     "sensors": {
-                        "temperature": 40,
-                        "airQuality": 1360,
+                        "temperature": 28,
+                        "airQuality": 1587,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 481
+                        "fireDetected": 1,
+                        "brightness": 987
                     }
                 },
                 {
                     "id": "202",
                     "sensors": {
-                        "temperature": 2,
-                        "airQuality": 538,
+                        "temperature": 25,
+                        "airQuality": 2000,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 418
+                        "brightness": 990
                     }
                 },
                 {
                     "id": "203",
                     "sensors": {
-                        "temperature": 19,
-                        "airQuality": 1897,
+                        "temperature": 20,
+                        "airQuality": 1892,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 785
+                        "brightness": 906
                     }
                 },
                 {
                     "id": "204",
                     "sensors": {
-                        "temperature": 38,
-                        "airQuality": 1827,
+                        "temperature": 28,
+                        "airQuality": 1534,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 468
+                        "brightness": 899
                     }
                 },
                 {
                     "id": "205",
                     "sensors": {
-                        "temperature": 13,
-                        "airQuality": 623,
+                        "temperature": 21,
+                        "airQuality": 1809,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 593
                     }
                 },
                 {
                     "id": "206",
                     "sensors": {
-                        "temperature": 23,
-                        "airQuality": 1714,
+                        "temperature": 25,
+                        "airQuality": 1933,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 645
+                        "fireDetected": 1,
+                        "brightness": 755
                     }
                 },
                 {
                     "id": "207",
                     "sensors": {
-                        "temperature": 27,
-                        "airQuality": 623,
+                        "temperature": 25,
+                        "airQuality": 1713,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 257
+                        "fireDetected": 1,
+                        "brightness": 586
                     }
                 },
                 {
                     "id": "208",
                     "sensors": {
-                        "temperature": 8,
-                        "airQuality": 1919,
+                        "temperature": 25,
+                        "airQuality": 1682,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 826
                     }
                 },
                 {
                     "id": "209",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 558,
+                        "temperature": 26,
+                        "airQuality": 1635,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 499
+                        "fireDetected": 1,
+                        "brightness": 943
                     }
                 },
                 {
                     "id": "210",
                     "sensors": {
-                        "temperature": 10,
-                        "airQuality": 789,
+                        "temperature": 27,
+                        "airQuality": 1871,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 748
                     }
                 },
                 {
                     "id": "211",
                     "sensors": {
-                        "temperature": 23,
-                        "airQuality": 1807,
+                        "temperature": 20,
+                        "airQuality": 1504,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 221
+                        "fireDetected": 1,
+                        "brightness": 476
                     }
                 },
                 {
                     "id": "212",
                     "sensors": {
-                        "temperature": 48,
-                        "airQuality": 779,
+                        "temperature": 30,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 22
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "213",
                     "sensors": {
-                        "temperature": 10,
-                        "airQuality": 1510,
+                        "temperature": 22,
+                        "airQuality": 1902,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 207
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "214",
                     "sensors": {
-                        "temperature": 46,
-                        "airQuality": 1519,
+                        "temperature": 25,
+                        "airQuality": 1635,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 371
+                        "brightness": 941
                     }
                 },
                 {
                     "id": "215",
                     "sensors": {
-                        "temperature": 36,
-                        "airQuality": 1290,
+                        "temperature": 29,
+                        "airQuality": 1905,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 42
+                        "fireDetected": 1,
+                        "brightness": 697
                     }
                 },
                 {
                     "id": "216",
                     "sensors": {
-                        "temperature": 31,
-                        "airQuality": 801,
+                        "temperature": 22,
+                        "airQuality": 1818,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 264
+                        "fireDetected": 1,
+                        "brightness": 853
                     }
                 },
                 {
                     "id": "217",
                     "sensors": {
-                        "temperature": 33,
-                        "airQuality": 1359,
+                        "temperature": 22,
+                        "airQuality": 1957,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 295
+                        "fireDetected": 1,
+                        "brightness": 664
                     }
                 },
                 {
                     "id": "218",
                     "sensors": {
-                        "temperature": 45,
-                        "airQuality": 1320,
+                        "temperature": 23,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 284
+                        "fireDetected": 1,
+                        "brightness": 827
                     }
                 },
                 {
                     "id": "219",
                     "sensors": {
-                        "temperature": 35,
-                        "airQuality": 1083,
+                        "temperature": 26,
+                        "airQuality": 1717,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 718
+                        "fireDetected": 1,
+                        "brightness": 766
                     }
                 },
                 {
                     "id": "220",
                     "sensors": {
-                        "temperature": 0,
+                        "temperature": 28,
                         "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 696
                     }
                 },
                 {
                     "id": "221",
                     "sensors": {
-                        "temperature": 4,
-                        "airQuality": 1897,
+                        "temperature": 20,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 16
+                        "fireDetected": 1,
+                        "brightness": 511
                     }
                 },
                 {
                     "id": "222",
                     "sensors": {
-                        "temperature": 31,
-                        "airQuality": 1636,
+                        "temperature": 22,
+                        "airQuality": 1844,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 45
+                        "fireDetected": 1,
+                        "brightness": 847
                     }
                 }
             ]
@@ -467,131 +467,131 @@
                 {
                     "id": "301",
                     "sensors": {
-                        "temperature": 11,
-                        "airQuality": 400,
+                        "temperature": 22,
+                        "airQuality": 1536,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 576
+                        "fireDetected": 1,
+                        "brightness": 637
                     }
                 },
                 {
                     "id": "302",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 1048,
+                        "temperature": 29,
+                        "airQuality": 1665,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 408
+                        "fireDetected": 1,
+                        "brightness": 970
                     }
                 },
                 {
                     "id": "303",
                     "sensors": {
-                        "temperature": 39,
-                        "airQuality": 1890,
+                        "temperature": 27,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 252
+                        "fireDetected": 1,
+                        "brightness": 837
                     }
                 },
                 {
                     "id": "304",
                     "sensors": {
-                        "temperature": 26,
-                        "airQuality": 1378,
+                        "temperature": 28,
+                        "airQuality": 1994,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 691
+                        "fireDetected": 1,
+                        "brightness": 681
                     }
                 },
                 {
                     "id": "305",
                     "sensors": {
-                        "temperature": 38,
-                        "airQuality": 552,
+                        "temperature": 29,
+                        "airQuality": 1960,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 689
+                        "fireDetected": 1,
+                        "brightness": 786
                     }
                 },
                 {
                     "id": "306",
                     "sensors": {
-                        "temperature": 34,
-                        "airQuality": 525,
+                        "temperature": 25,
+                        "airQuality": 1905,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 810
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "307",
                     "sensors": {
-                        "temperature": 45,
-                        "airQuality": 1761,
+                        "temperature": 24,
+                        "airQuality": 1825,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 221
+                        "fireDetected": 1,
+                        "brightness": 690
                     }
                 },
                 {
                     "id": "308",
                     "sensors": {
-                        "temperature": 37,
-                        "airQuality": 1640,
+                        "temperature": 27,
+                        "airQuality": 1704,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 550
+                        "fireDetected": 1,
+                        "brightness": 705
                     }
                 },
                 {
                     "id": "309",
                     "sensors": {
-                        "temperature": 9,
-                        "airQuality": 1516,
+                        "temperature": 20,
+                        "airQuality": 1604,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 302
+                        "fireDetected": 1,
+                        "brightness": 524
                     }
                 },
                 {
                     "id": "310",
                     "sensors": {
-                        "temperature": 48,
-                        "airQuality": 725,
+                        "temperature": 25,
+                        "airQuality": 1607,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 166
+                        "fireDetected": 1,
+                        "brightness": 801
                     }
                 },
                 {
                     "id": "311",
                     "sensors": {
-                        "temperature": 11,
-                        "airQuality": 1951,
+                        "temperature": 29,
+                        "airQuality": 1578,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 737
+                        "brightness": 941
                     }
                 },
                 {
                     "id": "312",
                     "sensors": {
-                        "temperature": 16,
-                        "airQuality": 736,
+                        "temperature": 25,
+                        "airQuality": 1948,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 838
                     }
                 },
                 {
                     "id": "313",
                     "sensors": {
-                        "temperature": 19,
-                        "airQuality": 591,
+                        "temperature": 21,
+                        "airQuality": 1988,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 945
                     }
                 }
             ]
@@ -601,151 +601,151 @@
                 {
                     "id": "501",
                     "sensors": {
-                        "temperature": 3,
-                        "airQuality": 1466,
+                        "temperature": 23,
+                        "airQuality": 1623,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 864
+                        "fireDetected": 1,
+                        "brightness": 685
                     }
                 },
                 {
                     "id": "502",
                     "sensors": {
-                        "temperature": 9,
-                        "airQuality": 661,
+                        "temperature": 21,
+                        "airQuality": 1601,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 823
+                        "fireDetected": 1,
+                        "brightness": 496
                     }
                 },
                 {
                     "id": "503",
                     "sensors": {
-                        "temperature": 16,
-                        "airQuality": 607,
+                        "temperature": 21,
+                        "airQuality": 1565,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 976
+                        "fireDetected": 1,
+                        "brightness": 619
                     }
                 },
                 {
                     "id": "504",
                     "sensors": {
-                        "temperature": 42,
-                        "airQuality": 1695,
+                        "temperature": 21,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 955
+                        "fireDetected": 1,
+                        "brightness": 819
                     }
                 },
                 {
                     "id": "505",
                     "sensors": {
-                        "temperature": 29,
-                        "airQuality": 1812,
+                        "temperature": 25,
+                        "airQuality": 1927,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 643
+                        "brightness": 828
                     }
                 },
                 {
                     "id": "506",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 815,
+                        "temperature": 29,
+                        "airQuality": 1925,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 880
+                        "fireDetected": 1,
+                        "brightness": 817
                     }
                 },
                 {
                     "id": "507",
                     "sensors": {
-                        "temperature": 13,
-                        "airQuality": 1167,
+                        "temperature": 26,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 136
+                        "fireDetected": 1,
+                        "brightness": 865
                     }
                 },
                 {
                     "id": "508",
                     "sensors": {
-                        "temperature": 6,
-                        "airQuality": 1091,
+                        "temperature": 29,
+                        "airQuality": 1988,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 365
+                        "fireDetected": 1,
+                        "brightness": 977
                     }
                 },
                 {
                     "id": "509",
                     "sensors": {
-                        "temperature": 29,
-                        "airQuality": 1496,
+                        "temperature": 30,
+                        "airQuality": 1956,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 591
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "510",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 694,
+                        "temperature": 22,
+                        "airQuality": 1782,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 765
+                        "fireDetected": 1,
+                        "brightness": 522
                     }
                 },
                 {
                     "id": "511",
                     "sensors": {
-                        "temperature": 50,
-                        "airQuality": 1936,
+                        "temperature": 25,
+                        "airQuality": 1605,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 238
+                        "fireDetected": 1,
+                        "brightness": 662
                     }
                 },
                 {
                     "id": "512",
                     "sensors": {
-                        "temperature": 34,
-                        "airQuality": 769,
+                        "temperature": 25,
+                        "airQuality": 1928,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 880
+                        "brightness": 478
                     }
                 },
                 {
                     "id": "513",
                     "sensors": {
-                        "temperature": 13,
-                        "airQuality": 1237,
+                        "temperature": 29,
+                        "airQuality": 1588,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 1000
+                        "brightness": 775
                     }
                 },
                 {
                     "id": "514",
                     "sensors": {
-                        "temperature": 17,
-                        "airQuality": 996,
+                        "temperature": 28,
+                        "airQuality": 1510,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 645
+                        "fireDetected": 1,
+                        "brightness": 740
                     }
                 },
                 {
                     "id": "515",
                     "sensors": {
-                        "temperature": 45,
-                        "airQuality": 1012,
+                        "temperature": 24,
+                        "airQuality": 1714,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 366
+                        "fireDetected": 1,
+                        "brightness": 725
                     }
                 }
             ]
@@ -755,141 +755,141 @@
                 {
                     "id": "601",
                     "sensors": {
-                        "temperature": 16,
-                        "airQuality": 959,
+                        "temperature": 25,
+                        "airQuality": 1575,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 232
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "602",
                     "sensors": {
-                        "temperature": 9,
-                        "airQuality": 660,
+                        "temperature": 30,
+                        "airQuality": 1619,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1000
+                        "fireDetected": 1,
+                        "brightness": 869
                     }
                 },
                 {
                     "id": "603",
                     "sensors": {
-                        "temperature": 8,
-                        "airQuality": 1836,
+                        "temperature": 28,
+                        "airQuality": 1589,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 228
+                        "fireDetected": 1,
+                        "brightness": 837
                     }
                 },
                 {
                     "id": "604",
                     "sensors": {
-                        "temperature": 32,
-                        "airQuality": 1823,
+                        "temperature": 25,
+                        "airQuality": 1602,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 282
+                        "fireDetected": 1,
+                        "brightness": 1000
                     }
                 },
                 {
                     "id": "605",
                     "sensors": {
-                        "temperature": 40,
-                        "airQuality": 400,
+                        "temperature": 20,
+                        "airQuality": 1884,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 368
+                        "fireDetected": 1,
+                        "brightness": 783
                     }
                 },
                 {
                     "id": "606",
                     "sensors": {
-                        "temperature": 32,
-                        "airQuality": 544,
+                        "temperature": 24,
+                        "airQuality": 1734,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 720
+                        "fireDetected": 1,
+                        "brightness": 833
                     }
                 },
                 {
                     "id": "607",
                     "sensors": {
-                        "temperature": 8,
-                        "airQuality": 1014,
+                        "temperature": 24,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 656
+                        "fireDetected": 1,
+                        "brightness": 735
                     }
                 },
                 {
                     "id": "608",
                     "sensors": {
-                        "temperature": 14,
-                        "airQuality": 2000,
+                        "temperature": 27,
+                        "airQuality": 1538,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 15
+                        "brightness": 806
                     }
                 },
                 {
                     "id": "609",
                     "sensors": {
-                        "temperature": 37,
-                        "airQuality": 1565,
+                        "temperature": 22,
+                        "airQuality": 1545,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 520
+                        "fireDetected": 1,
+                        "brightness": 606
                     }
                 },
                 {
                     "id": "610",
                     "sensors": {
-                        "temperature": 5,
-                        "airQuality": 697,
+                        "temperature": 20,
+                        "airQuality": 1581,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 488
+                        "fireDetected": 1,
+                        "brightness": 838
                     }
                 },
                 {
                     "id": "611",
                     "sensors": {
-                        "temperature": 48,
-                        "airQuality": 1108,
+                        "temperature": 24,
+                        "airQuality": 1955,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 456
+                        "fireDetected": 1,
+                        "brightness": 908
                     }
                 },
                 {
                     "id": "612",
                     "sensors": {
-                        "temperature": 6,
-                        "airQuality": 921,
+                        "temperature": 21,
+                        "airQuality": 1574,
                         "presence": 0,
                         "fireDetected": 0,
-                        "brightness": 589
+                        "brightness": 991
                     }
                 },
                 {
                     "id": "613",
                     "sensors": {
-                        "temperature": 36,
-                        "airQuality": 540,
+                        "temperature": 30,
+                        "airQuality": 1599,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 669
+                        "fireDetected": 1,
+                        "brightness": 641
                     }
                 },
                 {
                     "id": "614",
                     "sensors": {
-                        "temperature": 6,
-                        "airQuality": 1425,
+                        "temperature": 22,
+                        "airQuality": 1776,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 443
+                        "fireDetected": 1,
+                        "brightness": 643
                     }
                 }
             ]
@@ -899,71 +899,71 @@
                 {
                     "id": "701",
                     "sensors": {
-                        "temperature": 34,
-                        "airQuality": 618,
+                        "temperature": 25,
+                        "airQuality": 1733,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 127
+                        "fireDetected": 1,
+                        "brightness": 911
                     }
                 },
                 {
                     "id": "702",
                     "sensors": {
-                        "temperature": 31,
-                        "airQuality": 1177,
+                        "temperature": 28,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 792
+                        "fireDetected": 1,
+                        "brightness": 817
                     }
                 },
                 {
                     "id": "703",
                     "sensors": {
-                        "temperature": 6,
-                        "airQuality": 1782,
+                        "temperature": 28,
+                        "airQuality": 1913,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 784
+                        "fireDetected": 1,
+                        "brightness": 708
                     }
                 },
                 {
                     "id": "704",
                     "sensors": {
-                        "temperature": 30,
-                        "airQuality": 438,
+                        "temperature": 23,
+                        "airQuality": 1600,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 1
+                        "fireDetected": 1,
+                        "brightness": 784
                     }
                 },
                 {
                     "id": "705",
                     "sensors": {
-                        "temperature": 16,
-                        "airQuality": 1537,
+                        "temperature": 24,
+                        "airQuality": 2000,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 910
+                        "fireDetected": 1,
+                        "brightness": 702
                     }
                 },
                 {
                     "id": "706",
                     "sensors": {
-                        "temperature": 40,
-                        "airQuality": 1297,
+                        "temperature": 20,
+                        "airQuality": 1753,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 225
+                        "fireDetected": 1,
+                        "brightness": 891
                     }
                 },
                 {
                     "id": "707",
                     "sensors": {
-                        "temperature": 16,
-                        "airQuality": 967,
+                        "temperature": 21,
+                        "airQuality": 1681,
                         "presence": 0,
-                        "fireDetected": 0,
-                        "brightness": 478
+                        "fireDetected": 1,
+                        "brightness": 969
                     }
                 }
             ]

@@ -200,23 +200,25 @@ def generateFire(oldData, floor, scenarios):
 
     print(scenarios[floor])
 
-initialData = generateInitialData(temperature, airQuality, brightness) 
-print(json.dumps(initialData, indent=4))
+# initialData = generateInitialData(temperature, airQuality, brightness) 
+# print(json.dumps(initialData, indent=4))
 
-# Serializing json
-json_object = json.dumps(initialData, indent=4)
+# # Serializing json
+# json_object = json.dumps(initialData, indent=4)
+# with open(f"static/data/zurich2/init.json", "w") as outfile:
+#         outfile.write(json_object)
  
-print(initialData['floors'][0]['rooms'][0]['sensors'])
+# print(initialData['floors'][0]['rooms'][0]['sensors'])
 
-# generateFire(initialData, 3, floorScenarios)
-# Writing to sample.json
-# with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
-#     outfile.write(json_object)
+#ßgenerateFire(initialData, 3, floorScenarios)
+# # Writing to sample.json
+# # with open("static/data/zurich2/17-09-2022-01-26-00.json", "w") as outfile:
+# #     outfile.write(json_object)
 
-for i in range(250):
-    initialData = updateData(initialData)
-    print(initialData['floors'][0]['rooms'][0]['sensors'])
-    json_object = json.dumps(initialData, indent=4) 
-    with open(f"static/data/zurich2/17-09-2022-01-26-{i:003}.json", "w") as outfile:
-        outfile.write(json_object)
+# for i in range(250):
+#     initialData = updateData(initialData)
+#     print(initialData['floors'][0]['rooms'][0]['sensors'])
+#     json_object = json.dumps(initialData, indent=4) 
+#     with open(f"static/data/zurich2/17-09-2022-01-26-{i:003}.json", "w") as outfile:
+#         outfile.write(json_object)
 

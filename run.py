@@ -2,10 +2,17 @@
 import os
 import json
 from flask import Flask
+from createdata import updateData 
+
 app = Flask(__name__)
 
-file_data = {}
+
+global file_data
+global fire
+global fileNum
 fileNum = 0
+file_data = {}
+fire = False
 
 dirPath = "./static/data/zurich2"
 
@@ -18,7 +25,17 @@ for path in os.listdir(dirPath):
 
 files.sort()
 
-print(files)
+path = "./static/data/zurich2/init.json"
+with open(path) as file: # opening the json file
+	file_data = json.load(file)
+
+def updateFire(status):
+	global fire
+	fire = status
+
+def updateFileData(data):
+	global file_data
+	file_data = data
 
 @app.route('/buildings')
 def hello():
@@ -27,13 +44,33 @@ def hello():
 
 @app.route('/<building>/now')
 def getBuildingData(building):
+	print(fire)
 	global fileNum
-	print(fileNum)
-	print(files[fileNum])
-	with open(files[fileNum]) as file: # opening the json file
-		file_data = json.load(file)
-	fileNum = (fileNum + 1) % (len(files))
-	return file_data
+	if fire:
+		with open(files[fileNum]) as fireFile: # opening the json file
+			fireData = json.load(fireFile)
+		print(files[fileNum])
+		fileNum = fileNum + 1
+		print(fileNum)
+		if fileNum == len(files):
+			updateFire(False)
+		return fireData
+	else:
+		newData = updateData(file_data)
+		updateFileData(newData)
+		return file_data
+
+@app.route('/startfire')
+def startFire():
+	global fileNum
+	updateFire(True)
+	fileNum = 0
+	return 'Fire started: ' + str(fire)
+
+@app.route('/stopfire')
+def stopFire():
+	updateFire(False)
+	return 'Fire started: ' + str(fire)
 
 @app.route('/<building>/day')
 def getBuildingDayData(building):
